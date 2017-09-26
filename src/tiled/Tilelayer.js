@@ -230,7 +230,7 @@ Tilelayer.prototype.resizeWorld = function () {
     }
 
     if (physics.p2) {
-        physics.p2.setBoundsToWorld(true, true, false, true, false);
+        physics.p2.setBoundsToWorld(true, true, true, true, false);
     }
 };
 
